@@ -12,6 +12,6 @@
 
 nome2 = input("Digite o seu nome: ")
 sobrenome2 = input("Digite seu sobrenome: ")
-idade2 = input("Digite seu sobrenome: ")
+idade2 = int(input("Digite seu sobrenome: "))
 
 print(f"Olá {nome2} {sobrenome2}, sua idade é {idade2}")
