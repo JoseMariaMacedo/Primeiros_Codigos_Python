@@ -15,3 +15,9 @@ sobrenome2 = input("Digite seu sobrenome: ")
 idade2 = int(input("Digite seu sobrenome: "))
 
 print(f"Olá {nome2} {sobrenome2}, sua idade é {idade2}")
+
+#Operadores
+
+print (10 + 10) #Resultado = 20
+print (10 – 5) # Resultado = 5
+print(10 * 5) # Resultado = 50
