@@ -31,4 +31,17 @@ print(f"A multiplicacao das idades é {multiplicacao_idade}")
 divisao_idade = idade / idade2
 print(f"A divisão das idades é {divisao_idade}")
 
+#Estruturas de condição
+
+if idade >= 18:
+    print(f"{nome} é maior de idade")
+else:
+    print(f"{nome} é menor de idade")
+
+if idade2 <= 17:
+    print(f"{nome2} é menor de idade")
+elif idade2 >= 18 and idade2 <= 50:
+    print (f"{nome2} é adulto")
+else:
+    print(f"{nome2} é idoso")
 
