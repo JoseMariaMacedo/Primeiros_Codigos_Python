@@ -45,3 +45,54 @@ elif idade2 >= 18 and idade2 <= 50:
 else:
     print(f"{nome2} é idoso")
 
+#Estruturas de repetição
+
+numero = 0
+soma = 0
+while numero < 20:
+    numero = int(input("Digite um número menor que 20. Ou maior para finalizar o laço" ))
+    soma = soma + numero
+
+print(soma)
+
+for x in range(1, 10):
+    y = x + 1
+print(y) #10
+
+#For-else e While-else
+
+for x in range(1, 10):
+    y = x + 1
+else:
+    print("loop encerrado com sucesso")
+print(y) #10
+
+numero = 0
+soma = 0
+while numero < 20:
+    numero = int(input("Digite um número menor que 20"))
+    soma = soma + numero
+else:
+    print("loop encerrado com sucesso")
+print(soma)
+
+#Break
+numero = 0
+soma = 0
+while numero < 20:
+    numero = int(input("Digite um número menor que 20"))
+    if numero == 16:
+       break
+    soma = soma + numero
+print(soma)
+
+#Continue
+numero = 0
+soma = 0
+while numero < 20:
+    numero = int(input("Digite um número menor que 20"))
+    if numero == 16:
+        continue
+    soma = soma + numero
+
+print(soma)
