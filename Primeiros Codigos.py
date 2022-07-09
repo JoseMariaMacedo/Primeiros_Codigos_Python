@@ -47,7 +47,7 @@ while idade2 != 0:
         print(f"{nome2} é idoso")
 
 #Estruturas de repetição
-
+'''
 numero = 0
 soma = 0
 while numero < 20:
@@ -97,3 +97,5 @@ while numero < 20:
     soma = soma + numero
 
 print(soma)
+'''
+
