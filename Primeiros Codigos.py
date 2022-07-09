@@ -1,4 +1,12 @@
-nome = "josé"
+from usuario import Usuario
+
+usuario = Usuario("jose", 12, "macedo")
+
+print(f"Olá, {usuario.nome} {usuario.sobrenome}, sua idade é {usuario.idade}")
+
+
+
+'''nome = "josé"
 idade = 25
 sobrenome = "macedo"
 
@@ -48,7 +56,7 @@ while idade2 != 0:
 
 #Estruturas de repetição
 '''
-numero = 0
+'''numero = 0
 soma = 0
 while numero < 20:
     numero = int(input("Digite um número menor que 20. Ou maior para finalizar o laço" ))
@@ -98,4 +106,9 @@ while numero < 20:
 
 print(soma)
 '''
+
+#Importando métodos do arquivo usuário
+
+
+
 
